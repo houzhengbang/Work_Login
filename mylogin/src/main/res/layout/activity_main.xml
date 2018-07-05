@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="MyLogin"
+        android:text="Login"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="share"
+        android:text="分享"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+</LinearLayout>
